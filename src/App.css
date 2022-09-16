@@ -1,0 +1,66 @@
+
+.main-con{
+  width: 100%;
+  display: flex;
+  background-color: #282c34;
+}
+.map-con{
+  margin: 0;
+  padding: 0;
+  /* margin: 5px; */
+  /* border: 1px solid green; */
+}
+.sidebar-con{
+  display: flex;
+  border-radius: 12px;
+  padding: 8px;
+  gap:  1rem;
+  flex-direction: column;
+  /* margin: 5px; */
+  width: 30%;
+  /* border: 1px solid red; */
+}
+.input-con{
+  border: 0.5px solid gray;
+  color: grey;
+  margin-top: 20px;
+  background: #282c34;
+  padding: 8px;
+ 
+  border-radius: 8px;
+}
+.area-calculator-box{
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  height: 75vh;
+  
+  /* border: 1px solid green; */
+  
+}
+
+.buttons-con{
+  display: flex;
+  margin-top: 10px;
+  gap:10px;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+.button{
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #61dafb;
+  color: white;
+  width: 70px;
+  
+}
+
